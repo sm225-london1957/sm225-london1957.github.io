@@ -1,9 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水野壮公式ウェブサイト - 近日公開</title>
+    <style>
+        /* ページ全体の基本デザイン */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f8f9fa; /* 薄いグレーの背景 */
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            color: #333333;
+        }
+
+        /* 中央のコンテンツボックス */
+        .container {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        /* 「調整中」のスタイル */
+        .status-badge {
+            display: inline-block;
+            background-color: #6c757d; /* 落ち着いたグレー */
+            color: #ffffff;
+            font-size: 0.9rem;
+            font-weight: bold;
+            padding: 6px 16px;
+            border-radius: 50px;
+            margin-bottom: 24px;
+            letter-spacing: 0.1em;
+        }
+
+        /* 「水野壮公式ウェブサイト」のスタイル */
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 0 0 16px 0;
+            letter-spacing: 0.05em;
+        }
+
+        /* 「近日公開」のスタイル */
+        .message {
+            font-size: 1.2rem;
+            color: #666666;
+            margin: 0;
+            letter-spacing: 0.1em;
+        }
+
+        /* 画面サイズが小さい（スマホ）時の微調整 */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.6rem;
+            }
+            .message {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>テスト公開中</h1>
+
+    <div class="container">
+        <div class="status-badge">調整中</div>
+        <h1>水野壮公式ウェブサイト</h1>
+        <p class="message">近日公開</p>
+    </div>
+
 </body>
 </html>
